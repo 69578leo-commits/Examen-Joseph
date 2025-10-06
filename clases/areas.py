@@ -10,3 +10,8 @@ def area_rectangulo(base, altura):
     base = np.array(base, dtype=float)
     altura = np.array(altura, dtype=float)
     return np.multiply(base, altura)
+
+
+def area_circulo(radio):
+    radio = np.array(radio, dtype=float)
+    return np.multiply(np.pi, np.power(radio, 2))
